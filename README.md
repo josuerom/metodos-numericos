@@ -5,29 +5,53 @@ Este proyecto implementa una aplicación en Python 3 para resolver problemas de 
 ## Estructura del Proyecto
 
 metodos_numericos/
-├── main.py
-├── requirements.txt
-├── core/
-│ ├── gauss.py
-│ ├── lu.py
-│ ├── jacobi.py
-│ ├── interpolation.py
-│ ├── differentiation.py
-│ ├── integration.py
-│ └── ode_solver.py
-├── utils/
-│ ├── io_handler.py
-│ ├── exporter.py
-│ └── explainer.py
-├── interface/
-│ └── cli.py
-├── database/
-│ ├── db.py
-│ └── schema.sql
-├── docs/
-│ └── informe_tecnico.pdf
-└── README.md
 
+├── main.py
+
+├── .env
+
+├── requirements.txt
+
+├── core/
+
+│ ├── gauss.py
+
+│ ├── lu.py
+
+│ ├── jacobi.py
+
+│ ├── interpolation.py
+
+│ ├── differentiation.py
+
+│ ├── integration.py
+
+│ └── ode.py
+
+├── utils/
+
+│ ├── io_handler.py
+
+│ ├── exporter.py
+
+│ └── explainer.py
+
+├── interface/
+
+│ └── cli.py
+
+├── database/
+
+│ ├── db.py
+
+│ └── esquema.sql
+
+├── docs/
+
+│ └── resultados.pdf
+
+└── README.md
+---
 
 ## Requisitos
 
